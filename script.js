@@ -10,6 +10,11 @@ arr.forEach(button => {
             input.value = string; 
         }
 
+        else if(e.target.innerHTML == '%'){
+            string = (string)/100;
+            input.value = string; 
+        }
+
         else if(e.target.innerHTML == 'AC'){
             string = "";
             input.value = string;
